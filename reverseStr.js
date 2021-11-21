@@ -4,7 +4,7 @@ let reverseRec = (str) => {
   if (str === "") {
     return "";
   } else {
-    reverseRec(str.slice(1,0)) +str.charAt(0)
+    reverseRec(str.substr(1)) +str.charAt(0)
   }
 };
 

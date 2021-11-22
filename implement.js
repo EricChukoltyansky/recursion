@@ -9,17 +9,7 @@ array.push(6)
 // Stack
 
 // class stack
-class Stack {
-    // array is used to implement stack
-   constructor() {
-       this.item = [];
-   }
-}
-// push function
-push(element)
-{
-// push element into the items
-}
+
 
 // Queue
 

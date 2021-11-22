@@ -1,14 +1,37 @@
 // Array
-// Stack
-// Queue
-// Linked list
-// Binary tree
-// Array מערך
+
 let array = [1,2,3,4,5];
 let i = 10; // Takes up constant space, 4 byte (32 bit)
 array[0]
 array[0 + 10]
 array.push(6)
+
+// Stack
+
+// class stack
+class Stack {
+    // array is used to implement stack
+   constructor() {
+       this.item = [];
+   }
+}
+// push function
+push(element)
+{
+// push element into the items
+}
+
+// Queue
+
+
+// Linked list
+
+
+// Binary tree
+
+
+// Array מערך
+
 25600 // 15 steps
 12800 // 14 steps
 6400 // 13 steps

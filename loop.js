@@ -58,14 +58,26 @@
 
 // version 1
 let countEvenOnRange = (n) => {
-  
   let count = 0;
-  for( let i = 111; i<n ; i++) {
-     console.log(i)
-     }
-     return count;
-  }
   
 
+  for (let i = 112; i <= n; i++) {
+       if (i % 10 % 2 === 0 ) {
+           count++
+       }
+     if(i/10%2 === 0){
+         count++
+     }
+     if(i/10/10%2 === 0) {
+         count++
+     }
+      
+       console.log(Math.floor(i/10));
+    
+    
+    }
+    return count;
+  }
 
-console.log(countEvenOnRange(150))
+
+console.log(countEvenOnRange(120));

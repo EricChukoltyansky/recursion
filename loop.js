@@ -12,4 +12,4 @@ let countX = (n,t) => {
   }
 }
 
-countX(10,5)
+console.log(countX(10,5))

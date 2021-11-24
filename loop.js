@@ -132,10 +132,31 @@
 
 // 9 
 
-function validateEmail(email) 
-    {
-        let re = /\S+@\S+\.\S+/;
-        return re.test(email);
-    }
+// function validateEmail(email) 
+//     {
+//         let re = /\S+@\S+\.\S+/;
+//         return re.test(email);
+//     }
+
+// 10 
+// let checkPass = (str) => {
+//    str.(?=(.*[A-Z]){3})
+// }  
+
+// 11
+let isStrike = (num) => {
+  num = num.toString().split("")
+  for(let i=0; i<num.length; i++) {
+      i++;
+    //   console.log(num[i])
+    //   console.log(num[i-1])
+      if(num[i]-num[i-1] > 0) {
+          return true;
+      }
+      return false;
+  }
+}
+
+console.log(isStrike(32369))
 
 
